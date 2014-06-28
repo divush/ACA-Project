@@ -1,0 +1,18 @@
+try/except
+
+REPEAT # times
+REPEAT UNTIL 1 < 2
+<
+TURN LEFT
+TURN RIGHT
+>
+
+eval()
+
+Think about how you'll implement variables.
+Implement the $a=10 statement
+$a=10
+$a =10
+$a= 10
+$a =  10
+

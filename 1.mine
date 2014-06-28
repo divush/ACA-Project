@@ -1,0 +1,31 @@
+$   x  =       1
+
+MOVE 5
+
+TURN  LEFT
+FIRE
+SHIELD
+
+$   y     =    2
+$x  =  x  +  y
+
+$X=1
+$Y=2
+REPEAT UNTIL Y>X 
+{
+MOVE 5
+REPEAT 5 TIMES
+{
+REPEAT 2 TIMES
+{
+FIRE
+}
+REPEAT 2 TIMES
+{
+MOVE 1
+}
+TURN RIGHT
+}
+TURN  LEFT
+$Y=Y-1
+}

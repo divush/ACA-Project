@@ -1,0 +1,22 @@
+$   x  =       1
+
+MOVE  5
+
+TURN  LEFT
+FIRE
+SHIELD
+
+$   y     =    2
+$x  =  x  +  y
+REPEAT 5 TIMES
+{
+MOVE  5
+
+TURN  LEFT
+FIRE
+SHIELD
+}
+REPEAT UNTIL 2>1 
+{
+TURN  LEFT
+}

@@ -1,0 +1,24 @@
+MOVE #
+ - Display "Moving..." x #
+TURN LEFT
+ - Display "Turning Left"
+TURN RIGHT
+ - Display "Turning Right"
+FIRE
+ - Display "Firing"
+SHIELD
+ - Display "Shielding"
+
+
+$ python executor.py < commands.aca
+$ python executor.py commands.aca
+
+
+
+sys.argv
+sys
+open(file)
+readline
+string.split()
+string.strip
+int()

@@ -1,0 +1,26 @@
+MOVE 5
+ - Moves 5 steps forward
+TURN LEFT/RIGHT
+
+REPEAT 5 TIMES { ____ }
+ - Uses { and } to delimit the statements to be run
+ - # can be var, non negative integer(Does not run code within if # is zero).
+ - returns error if # is negative or float.
+REPEAT UNTIL <condition>  { ____ }
+ - Repeats until the condition is FALSE
+ - Uses { and } to delimit the statements to be run
+SHIELD
+ - Acts as extra health.
+ - The robot loses the extra health after 5 turns.
+ - The robot also loses the SHIELD after being hit by a FIRE.
+FIRE
+ - Normal Shot
+BOMB
+ - Limited.
+$<var> = <val>
+ - Variable declaration
+ - Change its value
+IF <condition> <____> ELSE <____>
+ - Condition
+ - Uses { and } to delimit the statements to be run
+
